@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+
+body {
+    margin: 0;
+    background-color: #202124;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 160px;
+}
+
+.search_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 30px;
+    background-color: #202124;
+    border: 1.5px solid #5f6368;
+    width: 600px;
+    border-radius: 25px;
+    height: 45px;
+}
+
+.search_div:hover .search_container {
+    background-color: #2c2d30;
+    box-shadow: 1px 1px 10px 3px rgba(0, 0, 0, 0.215);
+    border: 1.5px solid #2c2d30;
+}
+
+.search_div:hover textarea {
+    background-color: #2c2d30;
+}
+
+textarea {
+    background-color: #202124;
+    outline: none;
+    border: none;
+    resize: none;
+    caret-color: white;
+    color:#dcded7;
+    font-size: 16px;
+    font-weight: 300;
+    width: 500px;
+    white-space: nowrap;
+}
+
+.search_div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.material-symbols-rounded {
+    color: #5f6368;
+}
+
+.goxjub {
+    height: 24px;
+    width: 24px;
+    vertical-align: middle;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+.button {
+    color: #efefef;
+    background-color: #2c2d30;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+}
+
+.apps_button {
+    color: #efefef;
+    padding: 7px;
+}
+
+.apps_button:hover {
+    background-color: #313134;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.button_1:hover {
+    outline: 0.5px solid #aeb0a8;
+}
+
+.button_2:hover {
+    outline: 0.5px solid #aeb0a8;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    gap: 20px;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-right: 20px;
+    font-weight: 500;
+}
+
+.menu_a {
+    text-decoration: none;
+    color: #efefef;
+}
+
+.menu_a:hover {
+    text-decoration: underline;
+}
+
+.login_button {
+    padding: 10px 25px;
+    background-color: #8ab4f8;
+    border-radius: 5px;
+    transition: 0.1s;
+}
+
+.login_button:hover {
+    cursor: pointer;
+    background-color: #a6c6fa;
+}
+
+footer {
+    margin-top: 200px;
+    background-color: #171717;
+    color: #999da2;
+    padding-top: 1px;
+    padding-bottom: 16px;
+    font-size: 14px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    font-weight: 500;
+}
+
+.footer_part_1 {
+    margin-left: 32px;
+}
+
+.footer_part_2 {
+    margin-top: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 95vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.eco_info {
+    margin-right: 50px;
+}
+
+.info_nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 22px;
+}
+
+.add_info_nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 22px;
+}
+
+.info_a {
+    color: #999da2;
+    text-decoration: none;
+}
+
+.info_a:hover {
+    text-decoration: underline;
+}
+
+.eco_icon {
+    width: 12px;
+}
+
+.line {
+    height: 1px;
+    width: 100%;
+    background-color: #5f6368;
+}
